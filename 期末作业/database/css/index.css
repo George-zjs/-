@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #9c3939,#394083);
+}
+/* 头部样式 */
+.header{
+    height: 100px;
+    position: relative;
+}
+.header>a{
+    position: absolute;
+    left: 10px;
+    font-size: 40px;
+    font-style: oblique;
+    color:cornsilk ;
+}
+.header-content{
+    width: 830px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header-text{
+    display: block;
+    line-height: 10px;
+    color: rgb(224, 190, 208);
+}
+
+/* 导航栏 */
+.topnav{
+    height: 40px;
+   /* background-color: black; */
+}
+.topnav-content{
+    height: 40px;
+    width: 880px;
+    /* background-color: rgb(110, 150, 45); */
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.topnav-ul{
+    list-style-type: none;
+}
+.topnav-ul .topnav-li{
+    float: left;
+    margin: 10px 10px;
+    
+}
+.topnav-li a{
+    display: inline-block;
+    color: rgb(202, 172, 157);
+}
+.topnav-li a:hover{
+    color: rgb(240, 244, 247);
+    font-weight: bolder;
+}
+/* 创建三个不等的列 */
+.column{
+    float: left;
+    padding: 10px;
+    
+}
+/* 左右两边宽度 */
+.column.side{
+    width: 18%;
+    /* border: solid 2px black; */
+}
+
+/* 中间区域宽度 */
+.column.midlle{
+    width: 60%;
+    /* border: solid 2px black; */
+    border-radius: 30px;
+    margin: 0 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: inset 5px 5px 20px pink,5px 5px 20px #000;
+}
+/* 列后面清除浮动 */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* 响应式布局-宽度小于600的时候设置上下布局 */
+@media screen and(max-width:600px){
+    .column.side .column.midlle{
+        width: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+.window{
+    height: 200px;
+    width: 200px;
+    /* border: rgb(78, 11, 11) solid 2px; */
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+   
+}
+.text{
+    margin-top: 80%;
+    color: rgb(187, 183, 223);
+}
+.text a{
+    color: rgb(187, 183, 223);
+}
+.text a:hover{
+    color: rgb(189, 105, 134);
+}
+.top1{
+    background-image: url(img/top1.jpg);
+}
+.top2{
+    background-image: url(img/top2.jpg);
+}
+.top3{
+    background-image: url(img/top3.jpg);
+}
+.top4{
+    background-image: url(img/top4.jpg);
+}
+.top5{
+    background-image: url(img/top5.jpg);
+}
+.top6{
+    background-image: url(img/top6.jpg);
+}
+.top7{
+    background-image: url(img/top7.jpg);
+}
+.top8{
+    background-image: url(img/top8.jpg);
+}
+.top9{
+    background-image: url(img/top9.jpg);
+}
+.top10{
+    background-image: url(img/top10.jpg);
+}
+.top11{
+    background-image: url(img/top11.jpg);
+}
+.top12{
+    background-image: url(img/top12.jpg);
+}
+.top13{
+    background-image: url(img/top13.jpg);
+}
+.top14{
+    background-image: url(img/top14.jpg);
+}
+.top15{
+    background-image: url(img/top15.jpg);
+}
+.top16{
+    background-image: url(img/top16.jpg);
+}
+.top17{
+    background-image: url(img/top17.jpg);
+}
+.top18{
+    background-image: url(img/top18.jpg);
+}
+.top19{
+    background-image: url(img/top19.jpg);
+}
+.top20{
+    background-image: url(img/top20.jpg);
+}
